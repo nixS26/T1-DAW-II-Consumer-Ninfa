@@ -12,11 +12,11 @@ public class PersonajeModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "Nombre")
+    @Column(name = "nombre")
     private String nombre;
-    @Column(name = "Ki")
+    @Column(name = "ki")
     private String ki;
-    @Column(name = "MaxKi")
+    @Column(name = "maxKi")
     private String maxKi;
     @Column(name = "raza")
     private String raza;

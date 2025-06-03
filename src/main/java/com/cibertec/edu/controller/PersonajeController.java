@@ -24,7 +24,7 @@ public class PersonajeController {
 
     @GetMapping
     public List<PersonajeModel> obtenerTodos() {
-        logger.info("📥 Solicitando todos los personajes desde la base de datos");
+        logger.info("Solicitando todos los personajes desde la BD");
         return personajeRepository.findAll();
     }
 
